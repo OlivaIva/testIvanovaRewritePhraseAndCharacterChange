@@ -1,0 +1,59 @@
+{
+  "project" : {
+    "id" : "testivanovarewriter-727688-aVa",
+    "name" : "testivanovarewriter-727688-aVa",
+    "folder" : "/jaicp"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "Europe/Moscow",
+    "extendedSettings" : {
+      "tokenizerEngine" : "default"
+    },
+    "businessShared" : false,
+    "business" : false
+  },
+  "intents" : [ {
+    "id" : 445999,
+    "path" : "/Agree",
+    "enabled" : true,
+    "businessShared" : false,
+    "business" : false,
+    "phrases" : [ {
+      "text" : "Да"
+    }, {
+      "text" : "Хочу"
+    }, {
+      "text" : "Согласен"
+    }, {
+      "text" : "Согласна"
+    }, {
+      "text" : "Давай"
+    }, {
+      "text" : "Давайте"
+    } ],
+    "patterns" : [ ]
+  }, {
+    "id" : 458081,
+    "path" : "/Disagree",
+    "enabled" : true,
+    "businessShared" : false,
+    "business" : false,
+    "phrases" : [ {
+      "text" : "Нет"
+    }, {
+      "text" : "Не хочу"
+    }, {
+      "text" : "Не надо"
+    }, {
+      "text" : "Не сейчас"
+    }, {
+      "text" : "Потом"
+    } ],
+    "patterns" : [ ]
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
+}
